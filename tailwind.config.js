@@ -3,6 +3,7 @@ module.exports = {
 	  "./index.html",
 	  "./src/**/*.{vue,js,ts,jsx,tsx}",
 	],
+	mode: 'jit',
 	theme: {
 	  extend: {
 		'main-text': ['"Poppins"', 'sans-serif'],
@@ -19,6 +20,7 @@ module.exports = {
 		transparent: 'transparent',
 		'black': '#151416',
 		'grey': '#BEBBC5',
+		'darkgrey': '#1B1B1B',
 		'white': {
 			DEFAULT: '#FFFFFF',
 			'light': '#FFFFFF',

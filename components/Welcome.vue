@@ -1,12 +1,15 @@
 <template>
 	<section class="grid w-10/12 m-auto h-max sm:h-screen">
-		<div class="flex flex-col gap-4 mt-40 mb-40 sm:mb-0 sm:mt-40 2xl:mt-80 4xl:mt-96">
+		<div class="flex flex-col gap-4 mt-40 mb-40 sm:mb-0 sm:mt-40 2xl:mt-96 4xl:mt-[32rem]">
 			<h2 class="font-extralight text-2xl 2xl:text-5xl 4xl:text-8xl text-primary-light">Wassup, I'm Clement</h2>
 			<h1 class="font-semibold text-4xl xl:text-5xl 2xl:text-6xl 4xl:text-8xl">Freelance UI Designer & <br />Web Developer</h1>
 			<p class="font-extralight text-grey text-base xl:text-xl 2xl:text-2xl 4xl:text-4xl w-full">I will work with you to build the best products that this world <br />has never seen before, and we will have a great time doing it.</p>
 			<ul class="flex gap-12">
 				<li>
 					<img src="../static/assets/github-brands.svg" alt="github">
+				</li>
+				<li>
+					<img src="../static/assets/linkedin-brands.svg" alt="github">
 				</li>
 				<li>
 					<img src="../static/assets/twitter-brands (1).svg" alt="twitter">
