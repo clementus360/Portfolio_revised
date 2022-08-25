@@ -1,10 +1,10 @@
 <template>
-	<div class="flex flex-col sm:flex-row items-center col-span-10">
-		<div class="relative flex left-7 w-max h-72 justify-center items-center 2xl:top-24">
-			<img class="relative h-72 w-[30rem] 2xl:h-[30rem] 2xl:w-[52rem] 2xl:min-w-[52rem] sm:min-w-[32rem] z-20" src="../static/assets/pngkey 1.png" alt="mac">
-			<img class="absolute h-[16rem] z-10 left-14 2xl:h-[27rem] 2xl:left-[5rem] 2xl:-top-20" src="../static/assets/MacBook Pro 14_ - 1.png" alt="project">
+	<div class="flex flex-col justify-self-center justify-items-center sm:flex-row items-center col-span-10">
+		<div class="relative flex sm:left-7 w-[100vw] overflow-hidden sm:w-max h-72 justify-center items-center 2xl:top-24">
+			<img class="relative h-48 w-[85vw] sm:left-0 sm:h-72 sm:w-[30rem] 2xl:h-[30rem] 2xl:w-[52rem] 2xl:min-w-[52rem] sm:min-w-[32rem] z-20" src="../static/assets/pngkey 1.png" alt="mac">
+			<img class="absolute h-44 w-[16rem] sm:h-[16rem] z-10 sm:left-14 2xl:h-[27rem] 2xl:left-[5rem] 2xl:-top-20" src="../static/assets/MacBook Pro 14_ - 1.png" alt="project">
 		</div>
-		<div class="relative flex flex-col gap-4 2xl:gap-6 z-0 -left-14 bg-darkgrey shadow-md rounded-sm pb-6 pl-12 pt-6 h-max 2xl:pt-20 2xl:pb-20 2xl:top-24">
+		<div class="relative w-11/12 flex flex-col gap-4 2xl:gap-6 z-0 sm:-left-14 bg-darkgrey shadow-md rounded-sm pb-6 pl-12 pt-6 h-max 2xl:pt-20 2xl:pb-20 2xl:top-24">
 			<h2 class="text-primary-light text-lg 2xl:text-5xl font-semibold">Project Name</h2>
 			<p class="font-extralight w-11/12 2xl:text-3xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, adipisci?
 			</p>

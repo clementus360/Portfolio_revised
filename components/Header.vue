@@ -1,5 +1,5 @@
 <template>
-	<div class="fixed bg-black z-10 flex w-full justify-center m-auto">
+	<div class="fixed bg-black z-30 flex w-full justify-center m-auto">
 		<header class="w-11/12 flex justify-between items-center h-16 2xl:h-24">
 			<h2 class="font-bold text-lg 2xl:text-4xl">Ishimwe Clement</h2>
 			<h2 class="hidden sm:block">ReactJS</h2>
