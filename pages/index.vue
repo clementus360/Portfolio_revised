@@ -17,6 +17,11 @@
 </script>
 
 <style>
+  html {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
   body {
     background: linear-gradient(#151416, #0D0D0E);
     background-size: cover;
