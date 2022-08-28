@@ -22,7 +22,7 @@
 				</li>
 			</ul>
 		</div>
-		<img id="image" class="hidden sm:block absolute z-0 bottom-0 right-20 2xl:right-48 h-5/6" src="../static/assets/20220317_105842copy-removebg 1.png"/>
+		<img id="image" class="hidden sm:block absolute z-0 bottom-0 right-20 2xl:right-48 h-5/6" src="../static/assets/20220317_105842copy-removebg 1.png" alt="Ishimwe Clement"/>
 	</section>
 </template>
 

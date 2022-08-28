@@ -9,13 +9,14 @@
 				<br /><br />
 				Recently I have been planning to improve my skillset by adding Python, Angular, Svelte, ThreeJS, GraphQL and Flutter. If you have any advice on which one I should start with among any of these, feel free to contact me any time😀.
 			</p>
-			<button id="aboutButton" class="self-center sm:self-start bg-transparent text-primary-light p-3 pl-12 pr-12 w-max border-2 border-primary-light">Say hello</button>
+			<button @click="scroll('footer')" id="aboutButton" class="self-center sm:self-start bg-transparent text-primary-light p-3 pl-12 pr-12 w-max border-2 border-primary-light hover:bg-primary-light hover:text-black hover:text-lg">Say hello</button>
 		</div>
 	</section>
 </template>
 
 <script lang="ts">
 	import Vue from 'vue'
+	import scroll from './utils/scroller'
 	import { gsap } from 'gsap'
 	import { ScrollTrigger } from "gsap/ScrollTrigger";
 	gsap.registerPlugin(ScrollTrigger);
@@ -23,6 +24,7 @@
 	export default Vue.extend({
 		name: 'About',
 		methods: {
+			scroll,
 			customScrollTrigger() {
 				gsap.timeline({
 				scrollTrigger: {

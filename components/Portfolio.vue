@@ -11,8 +11,13 @@
 			<img @click="slider.next()" class="relative w-10 h-10 2xl:top-24" src="../static/assets/arrow-down-solid 1.svg" alt="next">
 			<div id="portfolioDots" class="col-span-12 justify-self-center">
 				<ul class="flex gap-2">
-					<li><img src="../static/assets/Ellipse 9.svg" alt=""></li>
-					<li><img src="../static/assets/Ellipse 10.svg" alt=""></li>
+					<li
+						v-for="(_slide, idx) in dotHelper"
+						@click="slider.moveToIdx(idx)"
+        				:key="idx"
+					>
+						<img :src="`/assets/${current === idx? 'Ellipse9.svg':'Ellipse10.svg' }`" :alt="idx">
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -43,21 +48,21 @@
 			id: 1,
 			name: 'Leerecs Music Platform',
 			description: 'Actively engaged in web creative design and development · Developed and implemented the artist page, music page and the compare page · Worked on creating and optimizing user friendly responsive web pages',
-			image: '../static/assets/images (4).png',
+			image: 'https://res.cloudinary.com/dpfonnjv3/image/upload/v1661690003/Portfolio/images_4_rrpfco.png',
 			stack: ['ReactJS', 'Sass', 'Keen-Slider']
 		},
 		{
 			id: 2,
 			name: 'Mudakikwa Portfolio',
 			description: 'Web developer Mudakikwa Julio Fred has a breathtaking personal website and I was lucky to work on it. I created and optimized responsiveness of different React components and added some animations.',
-			image: '../static/assets/d48d3d140230831.623db088d76a0.png',
+			image: 'https://res.cloudinary.com/dpfonnjv3/image/upload/v1661690542/Portfolio/mudakikwa_ervaah.png',
 			stack: ['ReactJS', 'Sass', 'Gsap']
 		},
 		{
 			id: 3,
 			name: 'TikTakToe Online',
 			description: 'TikTakToe is an online tic tac toe game with integrated video chat capability which uses WebRTC. This is a personal project on which I have been working for a while using vanilla Javascript and NodeJS and deployed on heroku.',
-			image: '../static/assets/Desktop - 1.png',
+			image: 'https://res.cloudinary.com/dpfonnjv3/image/upload/v1661689992/Portfolio/Desktop_-_1_a5jyyv.png',
 			stack: ['HTML', 'CSS', 'Javascript', 'WebRTC', 'SocketIO']
 		}
 	]
@@ -78,10 +83,7 @@
 					current.value = s.track.details.rel
 		    	},
 			})
-
 			const dotHelper = computed(() => slider.value ? [...Array(slider.value.track.details.slides.length).keys()] : [])
-    		console.log(slider)
-
 			return { container, current, dotHelper, slider }
 		},
 		methods: {
