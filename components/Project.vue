@@ -19,7 +19,6 @@
 
 <script lang="ts">
 	import Vue from 'vue'
-	import type { PropType } from 'vue'
 
 	export default Vue.extend({
 		name: 'Project',

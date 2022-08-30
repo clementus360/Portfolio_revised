@@ -3,7 +3,7 @@
 		<h1 id="portfolioTitle" class="font-semibold text-4xl xl:text-5xl 2xl:text-6xl">Portfolio</h1>
 		<div id="portfolioProject" class="grid grid-cols-12 gap-8 2xl:gap-y-20 sm:items-center">
 			<img @click="slider.prev()" class="relative w-10 h-10 2xl:top-24" src="../static/assets/arrow-down-solid 2.svg" alt="previous">
-				<div ref="container" class="keen-slider col-span-10  2xl:min-h-[40rem] 4xl:">
+				<div ref="container" class="keen-slider col-span-10  2xl:min-h-[40rem]">
 					<div class="keen-slider__slide" v-for="project in Projects">
 						<Project :details="project"/>
 					</div>

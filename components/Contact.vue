@@ -58,7 +58,7 @@
 				emailjs.sendForm('service_963rpgd', 'template_izw29yf', "#contactForm")
 				.then(() => {
 					alert('Message sent successfully')
-					const form: HTMLFormElement | HTMLElement | null = document.getElementById("contactForm")
+					const form = <HTMLFormElement>document.getElementById("contactForm")
 					if (form) {
 						form.reset()
 					}

@@ -1,5 +1,5 @@
 <template>
-	<section id="about" class="grid w-11/12 sm:w-6/12 m-auto h-max">
+	<section id="about" class="grid w-11/12 sm:w-6/12 m-auto h-max overflow-hidden">
 		<div class="flex flex-col gap-4 mt-20 sm:mt-40 2xl:mt-80 4xl:mt-96">
 			<h1 id="aboutTitle" class="font-semibold text-center sm:text-left text-4xl xl:text-5xl 2xl:text-6xl">Who is me?</h1>
 			<p id="aboutText" class="text-center sm:text-left font-extralight text-grey w-full sm:w-4/5 text-base 2xl:text-2xl 4xl:text-4xl">
@@ -11,6 +11,7 @@
 			</p>
 			<button @click="scroll('footer')" id="aboutButton" class="self-center sm:self-start bg-transparent text-primary-light p-3 pl-12 pr-12 w-max border-2 border-primary-light hover:bg-primary-light hover:text-black hover:text-lg">Say hello</button>
 		</div>
+
 	</section>
 </template>
 
@@ -60,7 +61,7 @@
 				scrollTrigger: {
 					trigger: "#about",
 					toggleActions: "play reset play reset",
-					start: 'top top',
+					start: '20%',
 					end: '100%',
 					scrub: true
 				}
@@ -70,7 +71,7 @@
 				scrollTrigger: {
 					trigger: "#about",
 					toggleActions: "play reset play reset",
-					start: 'top top',
+					start: '20%',
 					end: '100%',
 					scrub: true
 				}
@@ -80,7 +81,7 @@
 				scrollTrigger: {
 					trigger: "#about",
 					toggleActions: "play reset play reset",
-					start: 'top top',
+					start: '20%',
 					end: '100%',
 					scrub: true
 				}

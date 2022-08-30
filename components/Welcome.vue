@@ -1,5 +1,5 @@
 <template>
-	<section id="welcome" class="grid w-10/12 m-auto h-max sm:h-screen">
+	<section id="welcome" class="relative grid w-10/12 m-auto h-max sm:h-screen">
 		<div class="flex flex-col gap-4 mt-40 mb-40 sm:mb-0 sm:mt-44 2xl:mt-96 4xl:mt-[32rem]">
 			<h2 id="subtitle" class="font-extralight text-2xl 2xl:text-5xl 4xl:text-8xl text-primary-light">Wassup, I'm Clement</h2>
 			<h1 id="title" class="font-semibold text-4xl xl:text-5xl 2xl:text-6xl 4xl:text-8xl">Freelance UI Designer & <br />Web Developer</h1>
@@ -22,7 +22,9 @@
 				</li>
 			</ul>
 		</div>
-		<img id="image" class="hidden sm:block absolute z-0 bottom-0 right-20 2xl:right-48 h-5/6" src="../static/assets/20220317_105842copy-removebg 1.png" alt="Ishimwe Clement"/>
+		<img id="image" class="hidden sm:block absolute z-10 bottom-0 right-4 2xl:right-20 4xl:right-5 h-5/6" src="../static/assets/20220317_105842copy-removebg 1.png" alt="Ishimwe Clement"/>
+		<Wave class="hidden absolute top-0 h-screen sm:block sm:-right-32 4xl:-right-56" />
+
 	</section>
 </template>
 
@@ -97,7 +99,6 @@
 			gsap.fromTo("#image", {opacity:0, x:200}, {opacity:1, x:0, duration:1.4})
 
 			this.customScrollTrigger()
-
 		}
 	})
 </script>

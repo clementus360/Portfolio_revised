@@ -8911,6 +8911,11 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
+vue-wavify@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/vue-wavify/-/vue-wavify-1.2.2.tgz#77ac88dfdcab53e6c005561a7fa0ebd403b75631"
+  integrity sha512-65onEXGAsvOJfoVuLFjf8TCT3ZFJnM4AuT2wid8kryXdjyk7uH4QmIYYHSorpUbJmM5+DFc4gnrBUyZSeGjOPw==
+
 vue@^2.6.12, vue@^2.6.14:
   version "2.7.9"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.7.9.tgz#ac3ccb4a4ac5dd31a8eec4c68a094efe7f83dfbb"
