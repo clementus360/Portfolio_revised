@@ -43,8 +43,9 @@
   }
 
   body {
-    background: linear-gradient(#151416, #0D0D0E);
+    background: linear-gradient(hsl(270, 5%, 8%), #0D0D0E);
     background-size: cover;
+    overflow: hidden;
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
     color: white;

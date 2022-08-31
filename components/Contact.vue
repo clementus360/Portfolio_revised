@@ -2,7 +2,7 @@
 	<section id="contact" class="grid w-11/12 sm:w-6/12 xl:w-full m-auto h-max pb-8">
 		<div class="flex flex-col gap-4 2xl:gap-8 items-center mt-20 sm:mt-40 2xl:mt-80 4xl:mt-96">
 			<h1 id="contactTitle" class="font-semibold text-4xl xl:text-5xl 2xl:text-6xl">Get in touch</h1>
-			<p id="contactText" class="text-center font-extralight text-grey w-full sm:w-4/5 text-base xl:text-xl 2xl:text-2xl 4xl:text-4xl">
+			<p id="contactText" class="text-center font-extralight text-grey w-10/12 sm:w-4/5 text-base xl:text-xl 2xl:text-2xl 4xl:text-4xl">
 				My inbox is always open for everyone. Leave a message and I’ll check it as soon as I can.
 			</p>
 			<form ref="form" id="contactForm" @submit="sendMail" class="flex flex-col items-center sm:w-6/12 sm:grid grid-cols-2 gap-4 2xl:gap-8">

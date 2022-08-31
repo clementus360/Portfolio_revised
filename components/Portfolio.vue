@@ -40,6 +40,7 @@
 		name: String;
 		description: String;
 		image: String;
+		link: String;
 		stack: String[];
 	}
 
@@ -49,6 +50,7 @@
 			name: 'Leerecs Music Platform',
 			description: 'Actively engaged in web creative design and development · Developed and implemented the artist page, music page and the compare page · Worked on creating and optimizing user friendly responsive web pages',
 			image: 'https://res.cloudinary.com/dpfonnjv3/image/upload/v1661690003/Portfolio/images_4_rrpfco.png',
+			link: 'https://leerecs.com/',
 			stack: ['ReactJS', 'Sass', 'Keen-Slider']
 		},
 		{
@@ -56,6 +58,7 @@
 			name: 'Mudakikwa Portfolio',
 			description: 'Web developer Mudakikwa Julio Fred has a breathtaking personal website and I was lucky to work on it. I created and optimized responsiveness of different React components and added some animations.',
 			image: 'https://res.cloudinary.com/dpfonnjv3/image/upload/v1661690542/Portfolio/mudakikwa_ervaah.png',
+			link: 'https://mudakikwa.com/',
 			stack: ['ReactJS', 'Sass', 'Gsap']
 		},
 		{
@@ -63,6 +66,7 @@
 			name: 'TikTakToe Online',
 			description: 'TikTakToe is an online tic tac toe game with integrated video chat capability which uses WebRTC. This is a personal project on which I have been working for a while using vanilla Javascript and NodeJS and deployed on heroku.',
 			image: 'https://res.cloudinary.com/dpfonnjv3/image/upload/v1661689992/Portfolio/Desktop_-_1_a5jyyv.png',
+			link: 'https://tiktaktoe-online.herokuapp.com/',
 			stack: ['HTML', 'CSS', 'Javascript', 'WebRTC', 'SocketIO']
 		}
 	]

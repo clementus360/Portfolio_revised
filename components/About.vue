@@ -1,8 +1,8 @@
 <template>
-	<section id="about" class="grid w-11/12 sm:w-6/12 m-auto h-max overflow-hidden">
+	<section id="about" class="grid w-11/12 sm:w-6/12 m-auto mb-6 h-max overflow-hidden">
 		<div class="flex flex-col gap-4 mt-20 sm:mt-40 2xl:mt-80 4xl:mt-96">
-			<h1 id="aboutTitle" class="font-semibold text-center sm:text-left text-4xl xl:text-5xl 2xl:text-6xl">Who is me?</h1>
-			<p id="aboutText" class="text-center sm:text-left font-extralight text-grey w-full sm:w-4/5 text-base 2xl:text-2xl 4xl:text-4xl">
+			<h1 id="aboutTitle" class="font-semibold text-center sm:text-left text-4xl md:text-5xl xl:text-5xl 2xl:text-6xl">Who is me?</h1>
+			<p id="aboutText" class="text-center sm:text-left font-extralight text-grey w-full sm:w-4/5 md:w-full text-base md:text-xl xl:text-base 2xl:text-2xl 4xl:text-4xl">
 				I am a Rwanda based web developer with 5 years of experience navigating the treacherous yet fun technologies of the modern internet.
 				<br /><br />
 				My skillset includes HTML, CSS, Javascript and an ever increasing list of supporting technologies including (but probably not limited to): Typescript, ReactJS, NodeJS, TailwindCSS, GSAP, Socket.io, VueJS, and WebRTC.
@@ -32,7 +32,7 @@
 					trigger: "#about",
 					toggleActions: "play reset play reset",
 					start: 'top bottom',
-					end: '10%',
+					end: 'top top',
 					scrub: true
 				}
 				}).fromTo("#aboutTitle", {y:400}, {y:0, duration:0.4, lazy: false})
@@ -42,7 +42,7 @@
 					trigger: "#about",
 					toggleActions: "play reset play reset",
 					start: 'top bottom',
-					end: '10%',
+					end: 'top top',
 					scrub: true
 				}
 				}).fromTo("#aboutText", {y:500}, {y:0, duration:0.6, lazy: false})
@@ -52,17 +52,17 @@
 					trigger: "#about",
 					toggleActions: "play reset play reset",
 					start: 'top bottom',
-					end: '10%',
+					end: 'top top',
 					scrub: true
 				}
-				}).fromTo("#aboutButton", {y:800}, {y:0, duration:1, lazy: false})
+				}).fromTo("#aboutButton", {y:800}, {y:0, duration:0.6, lazy: false})
 
 				gsap.timeline({
 				scrollTrigger: {
 					trigger: "#about",
 					toggleActions: "play reset play reset",
-					start: '20%',
-					end: '100%',
+					start: 'top top',
+					end: 'bottom top',
 					scrub: true
 				}
 				}).fromTo("#aboutTitle", {y:0}, {y:-400, duration:1, lazy: false})
@@ -71,8 +71,8 @@
 				scrollTrigger: {
 					trigger: "#about",
 					toggleActions: "play reset play reset",
-					start: '20%',
-					end: '100%',
+					start: 'top top',
+					end: 'bottom top',
 					scrub: true
 				}
 				}).fromTo("#aboutText", {y:0}, {y:-300, duration:1.4, lazy: false})
@@ -81,11 +81,11 @@
 				scrollTrigger: {
 					trigger: "#about",
 					toggleActions: "play reset play reset",
-					start: '20%',
-					end: '100%',
+					start: 'top top',
+					end: 'bottom top',
 					scrub: true
 				}
-				}).fromTo("#aboutButton", {y:0}, {y:-200, duration:1.6, lazy: false})
+				}).fromTo("#aboutButton", {y:0}, {y:-100, duration:1.6, lazy: false})
 			}
 		},
 		mounted() {

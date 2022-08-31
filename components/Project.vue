@@ -5,7 +5,7 @@
 			<img class="absolute h-44 w-[16rem] sm:w-[25rem] sm:h-[16rem] z-10 sm:left-14 2xl:h-[27rem] 2xl:left-[5rem] 2xl:-top-20 2xl:w-[41rem]" :src="details.image" :alt="details.name">
 		</div>
 		<div class="relative w-11/12 flex flex-col items-center sm:items-start text-center sm:text-left gap-4 2xl:gap-6 z-0 sm:-left-14 bg-darkgrey shadow-md rounded-sm pb-6 sm:pl-12 pt-6 h-max 2xl:pt-20 2xl:pb-20 2xl:top-24">
-			<h2 class="text-primary-light text-lg 2xl:text-3xl 4xl:text-5xl font-semibold">{{ details.name }}</h2>
+			<h2 class="text-primary-light text-lg 2xl:text-3xl 4xl:text-5xl font-semibold"><a :href="details.link" target="_blank">{{ details.name }}</a></h2>
 			<p class="font-extralight w-11/12 2xl:text-xl 4xl:text-3xl">{{ details.description }}
 			</p>
 			<ul class="flex flex-wrap justify-center w-11/12 gap-2 sm:gap-4 text-xs sm:text-sm 2xl:text-xl">
