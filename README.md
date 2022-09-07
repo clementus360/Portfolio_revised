@@ -21,5 +21,6 @@ $ yarn generate
 
 ### Links
 
-Previous version Link: https://ishimwe-clement.herokuapp.com/(for now...)
+Previous version Link: https://ishimwe-clement.herokuapp.com/ (for now...)
+
 Current version Link: https://ishimweclement.vercel.app/
