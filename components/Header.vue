@@ -2,16 +2,6 @@
 	<div class="fixed bg-black z-50 flex w-screen justify-center m-auto">
 		<header class="w-11/12 flex justify-between items-center h-16 2xl:h-24">
 			<h2 @click="scroll('welcome')" class="font-bold text-lg 2xl:text-4xl cursor-pointer">Ishimwe Clement</h2>
-			<div ref="container" class="hide sm:relative hidden sm:block keen-slider items-center w-max max-w-[6rem] max-h-[40%]" >
-				<h2 class="keen-slider__slide">ReactJS</h2>
-				<h2 class="keen-slider__slide">VueJS</h2>
-				<h2 class="keen-slider__slide">Javascript</h2>
-				<h2 class="keen-slider__slide">Typescript</h2>
-				<h2 class="keen-slider__slide">NodeJS</h2>
-				<h2 class="keen-slider__slide">TailwindCSS</h2>
-				<h2 class="keen-slider__slide">Gsap</h2>
-				<h2 class="keen-slider__slide">WebRTC</h2>
-			</div>
 			<img @click="toggleMenu" class="z-10 sm:hidden h-6 w-6" src="../static/assets/menu.svg" alt="menu">
 			<div class="hidden sm:block">
 				<ul class="flex font-thin text-lg 2xl:text-4xl">

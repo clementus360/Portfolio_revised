@@ -2,13 +2,13 @@
 	<section id="portfolio" class="flex flex-col items-center gap-16 pt-40 w-11/12 m-auto h-max">
 		<h1 id="portfolioTitle" class="font-semibold text-4xl xl:text-5xl 2xl:text-6xl">Portfolio</h1>
 		<div id="portfolioProject" class="grid grid-cols-12 gap-8 2xl:gap-y-20 sm:items-center">
-			<img @click="slider.prev()" class="relative w-10 h-10 2xl:top-24" src="../static/assets/arrow-down-solid 2.svg" alt="previous">
+			<img @click="slider.prev()" class="relative w-10 h-10 w-10 h-10 hover:w-12 hover:h-12 cursor-pointer transition-all 2xl:top-24" src="../static/assets/arrow-down-solid 2.svg" alt="previous">
 				<div ref="container" class="keen-slider col-span-10  2xl:min-h-[40rem]">
-					<div class="keen-slider__slide" v-for="project in Projects">
+					<div class="keen-slider__slide h-max" v-for="project in Projects">
 						<Project :details="project"/>
 					</div>
 				</div>
-			<img @click="slider.next()" class="relative w-10 h-10 2xl:top-24" src="../static/assets/arrow-down-solid 1.svg" alt="next">
+			<img @click="slider.next()" class="relative w-10 h-10 hover:w-12 hover:h-12 cursor-pointer transition-all 2xl:top-24" src="../static/assets/arrow-down-solid 1.svg" alt="next">
 			<div id="portfolioDots" class="col-span-12 justify-self-center">
 				<ul class="flex gap-2">
 					<li
@@ -16,7 +16,7 @@
 						@click="slider.moveToIdx(idx)"
         				:key="idx"
 					>
-						<img :src="`/assets/${current === idx? 'Ellipse9.svg':'Ellipse10.svg' }`" :alt="idx">
+						<img class="w-6 h-6 hover:w-8 hover:h-8 transition-all cursor-pointer" :src="`/assets/${current === idx? 'Ellipse9.svg':'Ellipse10.svg' }`" :alt="idx">
 					</li>
 				</ul>
 			</div>
@@ -90,41 +90,5 @@
 			const dotHelper = computed(() => slider.value ? [...Array(slider.value.track.details.slides.length).keys()] : [])
 			return { container, current, dotHelper, slider }
 		},
-		methods: {
-			customScrollTrigger() {
-				gsap.timeline({
-				scrollTrigger: {
-					trigger: "#portfolio",
-					toggleActions: "play reset play reset",
-					start: 'top bottom',
-					end: '10%',
-					scrub: true
-				}
-				}).fromTo("#portfolioTitle", {y:200}, {y:0, duration:0.2, lazy: false})
-
-				gsap.timeline({
-				scrollTrigger: {
-					trigger: "#portfolio",
-					toggleActions: "play reset play reset",
-					start: 'top bottom',
-					end: '10%',
-					scrub: true
-				}
-				}).fromTo("#portfolioProject", {y:400}, {y:0, duration:0.2, lazy: false})
-
-				gsap.timeline({
-				scrollTrigger: {
-					trigger: "#portfolio",
-					toggleActions: "play reset play reset",
-					start: 'top bottom',
-					end: '10%',
-					scrub: true
-				}
-				}).fromTo("#portfolioDots", {y:600}, {y:0, duration:0.2, lazy: false})
-			}
-		},
-		mounted() {
-			this.customScrollTrigger()
-		}
 	})
 </script>

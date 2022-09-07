@@ -68,40 +68,6 @@
 
 
 			},
-			customScrollTrigger() {
-				gsap.timeline({
-				scrollTrigger: {
-					trigger: "#contact",
-					toggleActions: "play reset play reset",
-					start: 'top bottom',
-					end: '10%',
-					scrub: true
-				}
-				}).fromTo("#contactTitle", {y:200}, {y:0, duration:0.2, lazy: false})
-
-				gsap.timeline({
-				scrollTrigger: {
-					trigger: "#contact",
-					toggleActions: "play reset play reset",
-					start: 'top bottom',
-					end: '10%',
-					scrub: true
-				}
-				}).fromTo("#contactText", {y:400}, {y:0, duration:0.2, lazy: false})
-
-				gsap.timeline({
-				scrollTrigger: {
-					trigger: "#contact",
-					toggleActions: "play reset play reset",
-					start: 'top bottom',
-					end: '10%',
-					scrub: true
-				}
-				}).fromTo("#contactForm", {y:600}, {y:0, duration:0.2, lazy: false})
-			}
-		},
-		mounted() {
-			this.customScrollTrigger()
 		}
 	})
 </script>
