@@ -14,6 +14,10 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'This is a web developer portfolio website by frontend developer Ishimwe Clement.' },
       { name: 'format-detection', content: 'telephone=no' },
+      { name: 'author', content: 'Ishimwe Clement' },
+      { name: 'og:title', content: 'Ishimwe Clement' },
+      { name: 'og:image', content: 'https://res.cloudinary.com/dpfonnjv3/image/upload/v1662593839/Portfolio/ishimweclement.vercel.app__1_aezrox.png' },
+
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
