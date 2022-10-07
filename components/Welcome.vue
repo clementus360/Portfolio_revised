@@ -1,7 +1,7 @@
 <template>
 	<section id="welcome" class="relative grid w-10/12 m-auto h-max sm:h-screen">
 		<div class="flex flex-col gap-4 mt-40 mb-40 sm:mb-0 sm:mt-44 2xl:mt-96 4xl:mt-[32rem]">
-			<h2 id="subtitle" class="font-extralight text-2xl md:text-5xl xl:text-2xl 2xl:text-5xl 4xl:text-8xl text-primary-light">Wassup, I'm Clement</h2>
+			<h2 id="subtitle" class="font-extralight text-2xl md:text-5xl xl:text-2xl 2xl:text-5xl 4xl:text-8xl text-primary-light">Hello, I'm Clement</h2>
 			<h1 id="title" class="font-semibold text-4xl md:text-7xl xl:text-5xl 2xl:text-6xl 4xl:text-8xl">Freelance UI Designer & <br />Web Developer</h1>
 			<p id="description" class="font-extralight text-grey text-base md:text-xl xl:text-xl 2xl:text-2xl 4xl:text-4xl w-full">I will work with you to build the best products that this world <br />has never seen before, and we will have a great time doing it.</p>
 			<ul id="socials" class="flex gap-12">
