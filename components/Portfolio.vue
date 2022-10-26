@@ -47,11 +47,11 @@
 	const Projects: Project[] = [
 		{
 			id: 1,
-			name: 'Leerecs Music Platform',
-			description: 'Actively engaged in web creative design and development · Developed and implemented the artist page, music page and the compare page · Worked on creating and optimizing user friendly responsive web pages',
-			image: 'https://res.cloudinary.com/dpfonnjv3/image/upload/v1661690003/Portfolio/images_4_rrpfco.png',
-			link: 'https://leerecs.com/',
-			stack: ['ReactJS', 'Sass', 'Keen-Slider']
+			name: 'Musica web app',
+			description: "From twitter's #coding360challenge, this is an almost fully functional music streaming platform with all the basic capabilities like playing music, browsing songs and albums, liking, creating playlists,...",
+			image: 'https://res.cloudinary.com/dpfonnjv3/image/upload/v1666774475/Portfolio/Unknown_uiq9vl.png',
+			link: 'https://musica-delta.vercel.app',
+			stack: ['ReactJS', 'TailwindCSS']
 		},
 		{
 			id: 2,
@@ -63,12 +63,22 @@
 		},
 		{
 			id: 3,
+			name: 'Leerecs Music Platform',
+			description: 'Actively engaged in web creative design and development · Developed and implemented the artist page, music page and the compare page · Worked on creating and optimizing user friendly responsive web pages',
+			image: 'https://res.cloudinary.com/dpfonnjv3/image/upload/v1661690003/Portfolio/images_4_rrpfco.png',
+			link: 'https://leerecs.com/',
+			stack: ['ReactJS', 'Sass', 'Keen-Slider']
+		},
+		{
+			id: 4,
 			name: 'TikTakToe Online',
 			description: 'TikTakToe is an online tic tac toe game with integrated video chat capability which uses WebRTC. This is a personal project on which I have been working for a while using vanilla Javascript and NodeJS and deployed on heroku.',
 			image: 'https://res.cloudinary.com/dpfonnjv3/image/upload/v1661689992/Portfolio/Desktop_-_1_a5jyyv.png',
 			link: 'https://tiktaktoe-online.herokuapp.com/',
 			stack: ['HTML', 'CSS', 'Javascript', 'WebRTC', 'SocketIO']
-		}
+		},
+
+
 	]
 
 	export default Vue.extend({
