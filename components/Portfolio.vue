@@ -1,8 +1,8 @@
 <template>
-	<section id="portfolio" class="flex flex-col items-center gap-16 pt-40 w-11/12 m-auto h-max">
+	<section id="portfolio" class="flex flex-col items-center gap-16 w-11/12 m-auto h-max sm:h-screen">
 		<h1 id="portfolioTitle" class="font-semibold text-4xl xl:text-5xl 2xl:text-6xl">Portfolio</h1>
 		<div id="portfolioProject" class="grid grid-cols-12 gap-8 2xl:gap-y-20 sm:items-center">
-			<img @click="slider.prev()" class="relative w-10 h-10 w-10 h-10 hover:w-12 hover:h-12 cursor-pointer transition-all 2xl:top-24" src="../static/assets/arrow-down-solid 2.svg" alt="previous">
+			<img @click="slider.prev()" class="relative w-10 h-10 hover:w-12 hover:h-12 cursor-pointer transition-all 2xl:top-24" src="../static/assets/arrow-down-solid 2.svg" alt="previous">
 				<div ref="container" class="keen-slider col-span-10  2xl:min-h-[40rem]">
 					<div class="keen-slider__slide h-max" v-for="project in Projects">
 						<Project :details="project"/>
