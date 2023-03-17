@@ -1,4 +1,5 @@
 export default {
+  buildDir: 'nuxt-dist',
   // Server
   server: {
     host: '0.0.0.0',
