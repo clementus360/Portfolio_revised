@@ -74,7 +74,7 @@
 			name: 'TikTakToe Online',
 			description: 'TikTakToe is an online tic tac toe game with integrated video chat capability which uses WebRTC. This is a personal project on which I have been working for a while using vanilla Javascript and NodeJS and deployed on heroku.',
 			image: 'https://res.cloudinary.com/dpfonnjv3/image/upload/v1661689992/Portfolio/Desktop_-_1_a5jyyv.png',
-			link: 'https://tiktaktoe-online.herokuapp.com/',
+			link: 'https://tiktaktoe-3iym.onrender.com',
 			stack: ['HTML', 'CSS', 'Javascript', 'WebRTC', 'SocketIO']
 		},
 
