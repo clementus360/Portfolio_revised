@@ -1,6 +1,6 @@
 <template>
-	<section id="about" class="grid w-11/12 sm:w-6/12 m-auto mb-6 h-screen overflow-hidden">
-		<div class="flex flex-col gap-4 mt-20 sm:mt-40 2xl:mt-80 4xl:mt-96">
+	<section id="about" class="grid w-11/12 sm:w-6/12 m-auto h-max py-40 overflow-hidden">
+		<div class="flex flex-col gap-6">
 			<h1 id="aboutTitle" class="font-semibold text-center sm:text-left text-4xl md:text-5xl xl:text-5xl 2xl:text-6xl">Who is me?</h1>
 			<p id="aboutText" class="text-center sm:text-left font-extralight text-grey w-full sm:w-4/5 md:w-full text-base md:text-xl xl:text-base 2xl:text-2xl 4xl:text-4xl">
 				I am a Rwanda based web developer with 5 years of experience navigating the treacherous yet fun technologies of the modern internet.

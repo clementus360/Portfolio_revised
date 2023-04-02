@@ -1,5 +1,5 @@
 <template>
-	<section id="contact" class="grid w-11/12 sm:w-6/12 xl:w-full m-auto h-max sm:h-screen pb-8">
+	<section id="contact" class="grid w-11/12 sm:w-6/12 xl:w-full m-auto h-max sm:h-screen py-40">
 		<div class="flex flex-col gap-4 2xl:gap-8 items-center mt-20 sm:mt-0">
 			<h1 id="contactTitle" class="font-semibold text-4xl xl:text-5xl 2xl:text-6xl">Get in touch</h1>
 			<p id="contactText" class="text-center font-extralight text-grey w-10/12 sm:w-4/5 text-base xl:text-xl 2xl:text-2xl 4xl:text-4xl">
