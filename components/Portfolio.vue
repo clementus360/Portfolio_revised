@@ -77,6 +77,15 @@
 			link: 'https://tiktaktoe-3iym.onrender.com',
 			stack: ['HTML', 'CSS', 'Javascript', 'WebRTC', 'SocketIO']
 		},
+		{
+			id: 4,
+			name: 'eGamers / Funky Monkey Arcade',
+			description: 'eGamers.rw is the official website for Funky monkey arcade located at in Mundi Center Rwandex, Rwanda. It offers a wide selection of games and entertainment for all ages. The website offers a rental platform for renting games and items powered by firebase.',
+			image: 'https://res.cloudinary.com/dpfonnjv3/image/upload/v1701023331/Portfolio/cq4yenzevcd5qxzrwcim.png',
+			link: 'https://www.egamers.rw',
+			stack: ['NextJS', 'TailwindCSS', 'Firebase']
+		},
+
 
 
 	]
