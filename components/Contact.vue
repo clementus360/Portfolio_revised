@@ -62,8 +62,8 @@
 					if (form) {
 						form.reset()
 					}
-				}).catch(err => {
-					alert('There was a problem sending the email')
+				}).catch((err: any) => {
+					alert(`There was a problem sending the email: ${err}`,)
 				})
 
 
